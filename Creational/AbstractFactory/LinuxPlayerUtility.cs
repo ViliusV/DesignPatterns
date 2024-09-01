@@ -4,7 +4,7 @@ namespace AbstractFactory
 {
 	internal static class LinuxPlayerUtility
 	{
-        public static Process PlaybackProcess { get; set; }
+        public static Process? PlaybackProcess { get; set; }
         public static void StartBashProcess(string command)
         {
             var escapedArgs = command.Replace("\"", "\\\"");

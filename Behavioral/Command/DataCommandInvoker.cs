@@ -4,7 +4,7 @@ namespace Command
 {
 	internal class DataCommandInvoker
     {
-        private ICommand command;
+        private ICommand? command;
 
         public void SetCommand(ICommand command)
         {

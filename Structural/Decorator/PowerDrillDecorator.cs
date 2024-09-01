@@ -2,7 +2,7 @@
 {
 	internal abstract class PowerDrillDecorator : IPowerDrill
     {
-        private IPowerDrill powerDrill;
+        private IPowerDrill? powerDrill;
 
         public void SetPowerDrill(IPowerDrill powerDrill)
         {

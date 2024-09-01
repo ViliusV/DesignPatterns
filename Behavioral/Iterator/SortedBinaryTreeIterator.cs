@@ -3,16 +3,16 @@
 	internal class SortedBinaryTreeIterator : IIterator
     {
         private readonly SortedBinaryTreeCollection aggregate;
-        private Node current;
+        private Node? current;
         public SortedBinaryTreeIterator(SortedBinaryTreeCollection aggregate)
         {
             this.aggregate = aggregate;
             current = null;
         }
 
-        public int GetCurrent()
+        public int? GetCurrent()
         {
-            return current.Value;
+            return current?.Value ?? null;
         }
 
         public bool MoveNext()

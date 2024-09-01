@@ -1,6 +1,5 @@
 ﻿using Bridge.Implementation;
 using Bridge.Interface;
-using System;
 
 namespace Bridge
 {

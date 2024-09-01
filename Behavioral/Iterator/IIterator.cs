@@ -3,6 +3,6 @@
 	internal interface IIterator
     {
         bool MoveNext();
-        int GetCurrent();
+        int? GetCurrent();
     }
 }

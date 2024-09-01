@@ -1,8 +1,8 @@
 ﻿namespace Iterator
 {
-	internal class SortedBinaryTreeCollection : IAggregate
+    internal class SortedBinaryTreeCollection : IAggregate
     {
-        private Node root;
+        private Node? root;
 
         public SortedBinaryTreeCollection()
         {
@@ -14,7 +14,7 @@
             return new SortedBinaryTreeIterator(this);
         }
 
-        public Node GetFirst()
+        public Node? GetFirst()
         {
             var current = root;
             while (true)
@@ -25,14 +25,14 @@
                 }
                 else
                 {
-                    return current;
+					return current;
                 }
             }
         }
 
         public void Insert(int value)
         {
-            Node newNode = new Node(value);
+            var newNode = new Node(value);
 
             if (root is null)
             {

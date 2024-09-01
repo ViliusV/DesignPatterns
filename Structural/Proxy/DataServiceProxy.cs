@@ -7,7 +7,7 @@ namespace Proxy
 	internal class DataServiceProxy : IDataService
     {
         private readonly DataService dataService;
-        private List<string> localCache;
+        private List<string>? localCache;
         public DataServiceProxy()
         {
             dataService = new DataService();

@@ -2,7 +2,7 @@
 {
 	internal abstract class RequestHandler
     {
-        protected RequestHandler successor;
+        protected RequestHandler? successor;
 
         public abstract Response HandleRequest(Request request);
 

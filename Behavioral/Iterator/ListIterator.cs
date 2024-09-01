@@ -19,7 +19,7 @@
             }
             return false;
         }
-        public int GetCurrent()
+        public int? GetCurrent()
         {
             return aggregate[currentIndex];
         }
