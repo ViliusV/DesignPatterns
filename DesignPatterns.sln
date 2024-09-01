@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{FD40DFD5-CB9F-4DCE-AC7F-7E2A3F0084AB}"
 EndProject
@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Behavioral\Comma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{3B4384B1-70BC-4AEF-9C42-2319DE6F83B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Behavioral\Iterator\Iterator.csproj", "{C438DCE8-E03A-4C24-888B-D7B5732FDF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Behavioral\Iterator\Iterator.csproj", "{C438DCE8-E03A-4C24-888B-D7B5732FDF75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Behavioral\Mediator\Mediator.csproj", "{87687632-9BDA-424B-8D01-846601ED9B7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{C438DCE8-E03A-4C24-888B-D7B5732FDF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C438DCE8-E03A-4C24-888B-D7B5732FDF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C438DCE8-E03A-4C24-888B-D7B5732FDF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87687632-9BDA-424B-8D01-846601ED9B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87687632-9BDA-424B-8D01-846601ED9B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87687632-9BDA-424B-8D01-846601ED9B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87687632-9BDA-424B-8D01-846601ED9B7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{FEB94B40-D21E-4984-BD4E-29DF019C95DB} = {8743190E-CB24-4013-8C6A-0633B7FE3C38}
 		{3B4384B1-70BC-4AEF-9C42-2319DE6F83B3} = {8743190E-CB24-4013-8C6A-0633B7FE3C38}
 		{C438DCE8-E03A-4C24-888B-D7B5732FDF75} = {8743190E-CB24-4013-8C6A-0633B7FE3C38}
+		{87687632-9BDA-424B-8D01-846601ED9B7E} = {8743190E-CB24-4013-8C6A-0633B7FE3C38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1D729EE-FC7A-45A3-B48C-27E7EC6B794A}
